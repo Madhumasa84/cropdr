@@ -1,0 +1,14 @@
+{
+  "Tamil Nadu": ["Tomato", "Rice", "Cotton", "Maize", "Groundnut", "Chilli", "Sugarcane"],
+  "Karnataka": ["Tomato", "Rice", "Maize", "Groundnut", "Sugarcane", "Chilli"],
+  "Andhra Pradesh": ["Rice", "Groundnut", "Cotton", "Chilli", "Maize"],
+  "Telangana": ["Cotton", "Rice", "Maize", "Chilli", "Soybean"],
+  "Maharashtra": ["Cotton", "Soybean", "Sugarcane", "Tomato", "Groundnut"],
+  "Gujarat": ["Groundnut", "Cotton", "Wheat", "Maize", "Potato"],
+  "Punjab": ["Wheat", "Rice", "Maize", "Potato"],
+  "Haryana": ["Wheat", "Rice", "Cotton", "Maize"],
+  "Uttar Pradesh": ["Wheat", "Rice", "Sugarcane", "Potato", "Tomato"],
+  "West Bengal": ["Rice", "Potato", "Tomato", "Maize"],
+  "Madhya Pradesh": ["Wheat", "Soybean", "Maize", "Potato", "Tomato"],
+  "Rajasthan": ["Wheat", "Groundnut", "Cotton", "Maize"]
+}

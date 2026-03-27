@@ -1,0 +1,387 @@
+{
+  "Tomato": {
+    "Late_Blight": {
+      "conditions": {
+        "humidity_min": 85,
+        "temp_min": 15,
+        "temp_max": 25,
+        "rainfall_mm_7day_min": 10
+      },
+      "risk_months": [10, 11, 12, 1, 2],
+      "crop_stages": ["Flowering", "Fruiting"],
+      "prevention": "Apply Mancozeb 75% WP @ 2.5 g/L every 7 days. Avoid overhead irrigation.",
+      "urgency_days": 3
+    },
+    "Early_Blight": {
+      "conditions": {
+        "humidity_min": 78,
+        "temp_min": 24,
+        "temp_max": 31,
+        "rainfall_mm_7day_min": 5
+      },
+      "risk_months": [8, 9, 10, 11],
+      "crop_stages": ["Vegetative", "Flowering", "Fruiting"],
+      "prevention": "Apply Chlorothalonil 75% WP @ 2 g/L. Remove infected lower leaves.",
+      "urgency_days": 5
+    },
+    "Leaf_Curl_Virus": {
+      "conditions": {
+        "humidity_min": 55,
+        "humidity_max": 82,
+        "temp_min": 22,
+        "temp_max": 32,
+        "rainfall_mm_7day_max": 18
+      },
+      "risk_months": [2, 3, 4, 9, 10],
+      "crop_stages": ["Vegetative", "Flowering"],
+      "prevention": "Control whiteflies using yellow sticky traps and neem-based spray. Remove infected plants early.",
+      "urgency_days": 4
+    }
+  },
+  "Rice": {
+    "Blast": {
+      "conditions": {
+        "humidity_min": 90,
+        "temp_min": 24,
+        "temp_max": 30,
+        "rainfall_mm_7day_min": 8
+      },
+      "risk_months": [7, 8, 9],
+      "crop_stages": ["Tillering", "Panicle_Initiation", "Flowering"],
+      "prevention": "Apply Tricyclazole 75% WP @ 0.6 g/L. Ensure proper spacing and avoid excess nitrogen.",
+      "urgency_days": 2
+    },
+    "Sheath_Blight": {
+      "conditions": {
+        "humidity_min": 85,
+        "temp_min": 28,
+        "temp_max": 32,
+        "rainfall_mm_7day_min": 12
+      },
+      "risk_months": [8, 9, 10],
+      "crop_stages": ["Tillering", "Panicle_Initiation"],
+      "prevention": "Spray validamycin as per label instructions and maintain proper plant spacing.",
+      "urgency_days": 3
+    },
+    "Bacterial_Leaf_Blight": {
+      "conditions": {
+        "humidity_min": 75,
+        "temp_min": 25,
+        "temp_max": 34,
+        "rainfall_mm_7day_min": 15
+      },
+      "risk_months": [7, 8, 9, 10],
+      "crop_stages": ["Tillering", "Panicle_Initiation", "Flowering"],
+      "prevention": "Avoid excess nitrogen and stagnant water. Use copper-based bactericide only as locally recommended.",
+      "urgency_days": 4
+    }
+  },
+  "Wheat": {
+    "Leaf_Rust": {
+      "conditions": {
+        "humidity_min": 70,
+        "temp_min": 15,
+        "temp_max": 24,
+        "rainfall_mm_7day_min": 5
+      },
+      "risk_months": [1, 2, 3],
+      "crop_stages": ["Tillering", "Jointing", "Flowering"],
+      "prevention": "Use resistant varieties where possible and spray propiconazole as recommended.",
+      "urgency_days": 4
+    },
+    "Powdery_Mildew": {
+      "conditions": {
+        "humidity_min": 60,
+        "humidity_max": 82,
+        "temp_min": 12,
+        "temp_max": 22,
+        "rainfall_mm_7day_max": 10
+      },
+      "risk_months": [12, 1, 2],
+      "crop_stages": ["Tillering", "Jointing"],
+      "prevention": "Improve field aeration and spray wettable sulphur where suitable.",
+      "urgency_days": 5
+    },
+    "Karnal_Bunt": {
+      "conditions": {
+        "humidity_min": 70,
+        "temp_min": 15,
+        "temp_max": 25,
+        "rainfall_mm_7day_min": 3
+      },
+      "risk_months": [2, 3],
+      "crop_stages": ["Flowering"],
+      "prevention": "Use certified seed and avoid late irrigation around heading and flowering.",
+      "urgency_days": 6
+    }
+  },
+  "Cotton": {
+    "Leaf_Curl_Virus": {
+      "conditions": {
+        "humidity_min": 50,
+        "humidity_max": 75,
+        "temp_min": 24,
+        "temp_max": 34,
+        "rainfall_mm_7day_max": 15
+      },
+      "risk_months": [7, 8, 9, 10],
+      "crop_stages": ["Vegetative", "Squaring", "Flowering"],
+      "prevention": "Manage whitefly vectors, remove infected plants, and avoid overlapping crops.",
+      "urgency_days": 3
+    },
+    "Boll_Rot": {
+      "conditions": {
+        "humidity_min": 85,
+        "temp_min": 20,
+        "temp_max": 30,
+        "rainfall_mm_7day_min": 20
+      },
+      "risk_months": [8, 9, 10, 11],
+      "crop_stages": ["Flowering", "Boll_Development"],
+      "prevention": "Improve drainage and canopy aeration. Use fungicide only as locally recommended.",
+      "urgency_days": 3
+    },
+    "Alternaria_Leaf_Spot": {
+      "conditions": {
+        "humidity_min": 70,
+        "temp_min": 25,
+        "temp_max": 35,
+        "rainfall_mm_7day_min": 5
+      },
+      "risk_months": [8, 9, 10],
+      "crop_stages": ["Vegetative", "Flowering"],
+      "prevention": "Remove infected debris and apply Mancozeb or copper fungicide as recommended.",
+      "urgency_days": 5
+    }
+  },
+  "Maize": {
+    "Northern_Leaf_Blight": {
+      "conditions": {
+        "humidity_min": 85,
+        "temp_min": 18,
+        "temp_max": 27,
+        "rainfall_mm_7day_min": 10
+      },
+      "risk_months": [7, 8, 9],
+      "crop_stages": ["Vegetative", "Tasseling", "Silking"],
+      "prevention": "Use tolerant hybrids and apply fungicide only when disease pressure is confirmed.",
+      "urgency_days": 4
+    },
+    "Downy_Mildew": {
+      "conditions": {
+        "humidity_min": 80,
+        "temp_min": 20,
+        "temp_max": 30,
+        "rainfall_mm_7day_min": 8
+      },
+      "risk_months": [6, 7, 8],
+      "crop_stages": ["Germination", "Vegetative"],
+      "prevention": "Treat seed before sowing and ensure good drainage in the field.",
+      "urgency_days": 3
+    },
+    "Maydis_Leaf_Blight": {
+      "conditions": {
+        "humidity_min": 70,
+        "temp_min": 24,
+        "temp_max": 30,
+        "rainfall_mm_7day_min": 6
+      },
+      "risk_months": [8, 9, 10],
+      "crop_stages": ["Vegetative", "Tasseling", "Silking"],
+      "prevention": "Use balanced fertilization and protect foliage with recommended fungicide if symptoms appear.",
+      "urgency_days": 5
+    }
+  },
+  "Groundnut": {
+    "Tikka_Leaf_Spot": {
+      "conditions": {
+        "humidity_min": 80,
+        "temp_min": 25,
+        "temp_max": 30,
+        "rainfall_mm_7day_min": 12
+      },
+      "risk_months": [8, 9, 10],
+      "crop_stages": ["Vegetative", "Flowering", "Pegging"],
+      "prevention": "Spray chlorothalonil or mancozeb as recommended and avoid dense canopies.",
+      "urgency_days": 4
+    },
+    "Rust": {
+      "conditions": {
+        "humidity_min": 85,
+        "temp_min": 20,
+        "temp_max": 28,
+        "rainfall_mm_7day_min": 8
+      },
+      "risk_months": [9, 10, 11],
+      "crop_stages": ["Flowering", "Pegging", "Pod_Development"],
+      "prevention": "Monitor lower canopy and spray recommended fungicide early after first symptoms.",
+      "urgency_days": 3
+    },
+    "Stem_Rot": {
+      "conditions": {
+        "humidity_min": 75,
+        "temp_min": 26,
+        "temp_max": 32,
+        "rainfall_mm_7day_min": 15
+      },
+      "risk_months": [8, 9, 10],
+      "crop_stages": ["Vegetative", "Flowering", "Pegging"],
+      "prevention": "Improve drainage and use seed treatment plus soil application as advised locally.",
+      "urgency_days": 4
+    }
+  },
+  "Potato": {
+    "Late_Blight": {
+      "conditions": {
+        "humidity_min": 85,
+        "temp_min": 12,
+        "temp_max": 24,
+        "rainfall_mm_7day_min": 10
+      },
+      "risk_months": [11, 12, 1, 2],
+      "crop_stages": ["Vegetative", "Tuber_Initiation", "Tuber_Bulking"],
+      "prevention": "Start protective Mancozeb spray before symptom spread and avoid overhead irrigation.",
+      "urgency_days": 2
+    },
+    "Early_Blight": {
+      "conditions": {
+        "humidity_min": 75,
+        "temp_min": 22,
+        "temp_max": 30,
+        "rainfall_mm_7day_min": 5
+      },
+      "risk_months": [9, 10, 11],
+      "crop_stages": ["Vegetative", "Tuber_Initiation"],
+      "prevention": "Remove infected foliage and spray chlorothalonil or mancozeb as recommended.",
+      "urgency_days": 4
+    },
+    "Bacterial_Wilt": {
+      "conditions": {
+        "humidity_min": 60,
+        "temp_min": 22,
+        "temp_max": 35,
+        "rainfall_mm_7day_min": 10
+      },
+      "risk_months": [9, 10, 11, 12],
+      "crop_stages": ["Vegetative", "Tuber_Initiation"],
+      "prevention": "Use clean seed tubers, rotate crops, and remove wilted plants immediately.",
+      "urgency_days": 3
+    }
+  },
+  "Chilli": {
+    "Anthracnose": {
+      "conditions": {
+        "humidity_min": 85,
+        "temp_min": 24,
+        "temp_max": 30,
+        "rainfall_mm_7day_min": 10
+      },
+      "risk_months": [7, 8, 9, 10],
+      "crop_stages": ["Flowering", "Fruiting"],
+      "prevention": "Remove infected fruits and spray carbendazim plus mancozeb as locally recommended.",
+      "urgency_days": 3
+    },
+    "Powdery_Mildew": {
+      "conditions": {
+        "humidity_min": 60,
+        "humidity_max": 75,
+        "temp_min": 20,
+        "temp_max": 28,
+        "rainfall_mm_7day_max": 8
+      },
+      "risk_months": [10, 11, 12, 1],
+      "crop_stages": ["Vegetative", "Flowering"],
+      "prevention": "Spray wettable sulphur or suitable fungicide and improve air circulation.",
+      "urgency_days": 5
+    },
+    "Fruit_Rot": {
+      "conditions": {
+        "humidity_min": 80,
+        "temp_min": 24,
+        "temp_max": 30,
+        "rainfall_mm_7day_min": 12
+      },
+      "risk_months": [8, 9, 10],
+      "crop_stages": ["Flowering", "Fruiting"],
+      "prevention": "Avoid fruit contact with wet soil and maintain timely fungicide coverage.",
+      "urgency_days": 3
+    }
+  },
+  "Sugarcane": {
+    "Red_Rot": {
+      "conditions": {
+        "humidity_min": 80,
+        "temp_min": 25,
+        "temp_max": 32,
+        "rainfall_mm_7day_min": 20
+      },
+      "risk_months": [7, 8, 9, 10],
+      "crop_stages": ["Grand_Growth", "Maturity"],
+      "prevention": "Use disease-free setts, rogue infected clumps, and maintain field sanitation.",
+      "urgency_days": 4
+    },
+    "Smut": {
+      "conditions": {
+        "humidity_min": 60,
+        "humidity_max": 78,
+        "temp_min": 26,
+        "temp_max": 34,
+        "rainfall_mm_7day_max": 12
+      },
+      "risk_months": [3, 4, 5, 6],
+      "crop_stages": ["Germination", "Tillering"],
+      "prevention": "Use hot water treated setts and remove smutted clumps promptly.",
+      "urgency_days": 5
+    },
+    "Wilt": {
+      "conditions": {
+        "humidity_min": 60,
+        "temp_min": 28,
+        "temp_max": 35,
+        "rainfall_mm_7day_min": 5
+      },
+      "risk_months": [5, 6, 7, 8],
+      "crop_stages": ["Tillering", "Grand_Growth"],
+      "prevention": "Improve drainage, use healthy planting material, and avoid ratooning infected fields.",
+      "urgency_days": 5
+    }
+  },
+  "Soybean": {
+    "Rust": {
+      "conditions": {
+        "humidity_min": 85,
+        "temp_min": 18,
+        "temp_max": 26,
+        "rainfall_mm_7day_min": 10
+      },
+      "risk_months": [8, 9, 10],
+      "crop_stages": ["Flowering", "Pod_Development", "Seed_Filling"],
+      "prevention": "Scout early and spray triazole or mixed fungicide based on local advisory.",
+      "urgency_days": 3
+    },
+    "Anthracnose": {
+      "conditions": {
+        "humidity_min": 80,
+        "temp_min": 22,
+        "temp_max": 30,
+        "rainfall_mm_7day_min": 12
+      },
+      "risk_months": [8, 9, 10],
+      "crop_stages": ["Flowering", "Pod_Development"],
+      "prevention": "Use clean seed, maintain crop rotation, and treat early with recommended fungicide.",
+      "urgency_days": 4
+    },
+    "Charcoal_Rot": {
+      "conditions": {
+        "humidity_max": 65,
+        "temp_min": 30,
+        "temp_max": 36,
+        "rainfall_mm_7day_max": 5
+      },
+      "risk_months": [9, 10],
+      "crop_stages": ["Pod_Development", "Seed_Filling"],
+      "prevention": "Reduce drought stress with timely irrigation and avoid moisture stress during pod filling.",
+      "urgency_days": 4
+    }
+  }
+}

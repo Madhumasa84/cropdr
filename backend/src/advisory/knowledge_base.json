@@ -1,0 +1,243 @@
+{
+  "Tomato": {
+    "Early_Blight": {
+      "treatment": [
+        "Spray Chlorothalonil 75% WP @ 2 g/L or Mancozeb 75% WP @ 2.5 g/L every 7 to 10 days.",
+        "Remove lower infected leaves and keep foliage dry after irrigation."
+      ],
+      "fertilizer": [
+        "Reduce excess nitrogen to avoid soft lush growth that favors fungal spread.",
+        "Apply balanced NPK and calcium to support foliage recovery."
+      ],
+      "prevention": [
+        "Follow 2 to 3 year crop rotation away from tomato and potato.",
+        "Use drip irrigation and prune for airflow."
+      ]
+    },
+    "Late_Blight": {
+      "treatment": [
+        "Start protective Mancozeb spray immediately and rotate with Cymoxanil + Mancozeb where locally approved.",
+        "Destroy heavily infected plant parts to slow spread."
+      ],
+      "fertilizer": [
+        "Avoid late heavy nitrogen doses during cool humid periods.",
+        "Support plants with potassium-rich foliar nutrition if leaf burn is limited."
+      ],
+      "prevention": [
+        "Avoid overhead irrigation and keep field drainage clear.",
+        "Increase scouting during foggy or rainy weeks."
+      ]
+    },
+    "Leaf_Curl_Virus": {
+      "treatment": [
+        "Rogue severely infected plants early and control whiteflies with neem oil or locally approved insecticide.",
+        "Use yellow sticky traps around the field."
+      ],
+      "fertilizer": [
+        "Maintain moderate nitrogen and add micronutrients through a balanced foliar spray.",
+        "Avoid excessive urea because it increases tender growth preferred by vectors."
+      ],
+      "prevention": [
+        "Use vector-proof nursery nets and reflective mulch where possible.",
+        "Keep alternate host weeds removed from field borders."
+      ]
+    },
+    "Healthy": {
+      "treatment": ["No curative spray is needed right now; continue weekly scouting."],
+      "fertilizer": ["Continue balanced fertigation based on crop stage and soil test."],
+      "prevention": ["Keep canopy aerated and sanitize pruning tools between plots."]
+    }
+  },
+  "Rice": {
+    "Blast": {
+      "treatment": [
+        "Spray Tricyclazole 75% WP @ 0.6 g/L when first spindle lesions appear.",
+        "Avoid excess nitrogen top dressing during humid weeks."
+      ],
+      "fertilizer": [
+        "Split nitrogen into smaller doses and increase potassium where deficiency is visible.",
+        "Do not over-fertilize lush fields."
+      ],
+      "prevention": [
+        "Use tolerant varieties and maintain recommended spacing.",
+        "Drain standing water temporarily if the canopy stays wet for long periods."
+      ]
+    },
+    "Sheath_Blight": {
+      "treatment": [
+        "Apply validamycin or a locally recommended fungicide when lesions move above lower sheaths.",
+        "Remove dense lodged tillers in small plots."
+      ],
+      "fertilizer": [
+        "Cut back on excess nitrogen and keep potassium adequate.",
+        "Support recovery with balanced basal nutrition."
+      ],
+      "prevention": [
+        "Avoid overly dense transplanting and keep the field well ventilated.",
+        "Use clean crop residue management after harvest."
+      ]
+    },
+    "Bacterial_Leaf_Blight": {
+      "treatment": [
+        "Drain excess water and avoid field operations when leaves are wet.",
+        "Use a copper-based bactericide only if recommended by the local extension officer."
+      ],
+      "fertilizer": [
+        "Reduce nitrogen pressure and increase potash support.",
+        "Do not stimulate new soft growth during active infection."
+      ],
+      "prevention": [
+        "Use healthy seed, avoid clipping seedlings harshly, and maintain clean irrigation channels.",
+        "Scout after storms and heavy winds."
+      ]
+    }
+  },
+  "Wheat": {
+    "Leaf_Rust": {
+      "treatment": [
+        "Spray Propiconazole or Tebuconazole according to local guidance after pustules appear.",
+        "Protect the flag leaf first in high-value fields."
+      ],
+      "fertilizer": [
+        "Keep nitrogen moderate and maintain balanced sulphur nutrition.",
+        "Avoid late heavy nitrogen if disease is active."
+      ],
+      "prevention": [
+        "Use rust-tolerant varieties and remove volunteer wheat.",
+        "Increase scouting during cool humid weather."
+      ]
+    },
+    "Powdery_Mildew": {
+      "treatment": [
+        "Apply wettable sulphur or a recommended fungicide early in infection.",
+        "Improve airflow by avoiding excessive canopy density."
+      ],
+      "fertilizer": [
+        "Keep nitrogen balanced and avoid unnecessary foliar nitrogen.",
+        "Add potash if lodging risk and disease pressure rise together."
+      ],
+      "prevention": [
+        "Prefer tolerant varieties and timely sowing.",
+        "Monitor field edges and shaded patches first."
+      ]
+    },
+    "Karnal_Bunt": {
+      "treatment": [
+        "There is no strong curative field treatment after grain infection; focus on seed quality and timing.",
+        "Consult local extension support if seed production is the target."
+      ],
+      "fertilizer": [
+        "Maintain balanced nutrition and avoid late irrigation around flowering.",
+        "Do not push late nitrogen near heading."
+      ],
+      "prevention": [
+        "Use certified seed and follow clean seed handling.",
+        "Avoid sowing schedules that place flowering in persistent humid windows."
+      ]
+    }
+  },
+  "Cotton": {
+    "Leaf_Curl_Virus": {
+      "treatment": [
+        "Control whiteflies quickly using neem-based products or locally approved chemistry.",
+        "Remove heavily infected plants to reduce inoculum."
+      ],
+      "fertilizer": [
+        "Avoid excess nitrogen and support plants with balanced NPK plus magnesium if needed.",
+        "Keep growth steady instead of overly vegetative."
+      ],
+      "prevention": [
+        "Manage weeds and alternate hosts around the field.",
+        "Avoid overlapping cotton crops that keep whitefly populations high."
+      ]
+    },
+    "Boll_Rot": {
+      "treatment": [
+        "Improve drainage and protect bolls with a recommended fungicide if weather remains wet.",
+        "Remove rotting bolls during scouting rounds."
+      ],
+      "fertilizer": [
+        "Balance potassium to improve boll strength and avoid excess nitrogen.",
+        "Use foliar potassium where deficiency is visible."
+      ],
+      "prevention": [
+        "Maintain open canopy architecture and insect control.",
+        "Prevent standing water in furrows."
+      ]
+    },
+    "Alternaria_Leaf_Spot": {
+      "treatment": [
+        "Spray Mancozeb or copper fungicide where lesions are increasing.",
+        "Remove crop debris that carries inoculum."
+      ],
+      "fertilizer": [
+        "Maintain balanced NPK and avoid stress from irregular irrigation.",
+        "Add micronutrients if leaf tissue shows deficiency symptoms."
+      ],
+      "prevention": [
+        "Use clean field sanitation and avoid prolonged leaf wetness.",
+        "Rotate away from heavily infested fields."
+      ]
+    }
+  },
+  "Maize": {
+    "Northern_Leaf_Blight": {
+      "treatment": [
+        "Protect upper leaves with a recommended fungicide when lesions are active before tasseling.",
+        "Remove severely infected leaf trash after harvest."
+      ],
+      "fertilizer": [
+        "Keep potassium adequate and avoid stressing plants with uneven nitrogen.",
+        "Support recovery with balanced top dressing after rainfall."
+      ],
+      "prevention": [
+        "Choose tolerant hybrids and rotate residue-heavy fields.",
+        "Increase scouting after long dew periods."
+      ]
+    },
+    "Downy_Mildew": {
+      "treatment": [
+        "Rogue systemic infections early and use seed-treatment-centered management for future lots.",
+        "Improve field drainage immediately."
+      ],
+      "fertilizer": [
+        "Avoid heavy early nitrogen in waterlogged fields.",
+        "Keep phosphorus adequate for early vigor."
+      ],
+      "prevention": [
+        "Use treated seed and avoid repeated maize in wet low-lying plots.",
+        "Manage volunteer maize and alternate grass hosts."
+      ]
+    },
+    "Maydis_Leaf_Blight": {
+      "treatment": [
+        "Apply a protective fungicide when elongated lesions spread quickly.",
+        "Keep lower leaves monitored after rain."
+      ],
+      "fertilizer": [
+        "Maintain balanced nitrogen and potassium.",
+        "Prevent moisture stress during tasseling."
+      ],
+      "prevention": [
+        "Use residue management and crop rotation.",
+        "Prefer tolerant hybrids for historically affected areas."
+      ]
+    }
+  },
+  "generic": {
+    "fallback": {
+      "treatment": [
+        "Confirm the diagnosis with a local agronomist before using curative chemicals.",
+        "Remove heavily infected leaves and keep field tools sanitized."
+      ],
+      "fertilizer": [
+        "Avoid excess nitrogen during active disease pressure.",
+        "Use balanced nutrition guided by crop stage and soil test."
+      ],
+      "prevention": [
+        "Improve drainage, airflow, and scouting frequency.",
+        "Keep crop residue and weeds managed around the plot."
+      ]
+    }
+  }
+}
